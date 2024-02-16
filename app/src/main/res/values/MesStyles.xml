@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DigitBtnStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">addNumber</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:color">#FFFF</item>
+        <item name="android:background">#565656</item>
+        <item name="android:padding">20dp</item>
+
+    </style>
+    <style name="operatorStyle">
+        <item name="android:radius">50dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">addNumber</item>
+        <item name="android:background">#F27507</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:color">#FFFF</item>
+    </style>
+</resources>
